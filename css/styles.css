@@ -20,11 +20,9 @@ html{
 
 body{
   font-size: 1.6rem;
-  background: #171d20;
-  color: #fff;
-  display: grid;
-  place-content: center;
-  height: 100vh;
+  background-image: url("../img/397752-Firewatch-mountains-forest-video_games.webp");
+  background-size: cover;
+ 
 }
 
 h3{
@@ -35,6 +33,14 @@ h3{
 a{
   text-decoration: none;
   color: #ff4656;
+}
+
+.overlay{
+  background-color: #0000008e;
+  color: #fff;
+  display: grid;
+  place-content: center;
+  height: 100vh;
 }
 
 .container {
@@ -198,7 +204,7 @@ a{
 }
 
 .previous-page, .next-page{
-    background-color: #0ab1ce;
+    background-color: #ff4656;
     width: 80px;
     border-radius: 45px;
     cursor: pointer;
@@ -222,7 +228,7 @@ a{
 }
 
 .active{
-    background: #0ab1ce;
+    background: #ff4656;
 
 }
 
